@@ -6,9 +6,14 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    cout <<"Numbers 1 - 4" << endl;
+    for(int i = 0; i < 5; i++){
+        cout << i << endl;
+        
+    }
     std::cout << "Hello, World!\n";
     return 0;
 }
